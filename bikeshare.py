@@ -19,7 +19,7 @@ def get_filters():
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     city = input('Input name of city to analyze:').lower()
     while city not in ['chicago', 'new york city', 'washington']:
-        city = input('Please enter chicago, new york city, or washington as your city of choice:')
+        city = input('Please enter Chicago, New York City, or Washington as your city of choice:')
 
     # TO DO: get user input for month (all, january, february, ... , june)
     month = input('Input name of the month to filter by, or all to apply no month filter:').lower()
